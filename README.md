@@ -7,7 +7,7 @@ Need
 * Clone files
 ```code
 	git clone https://github.com/OrmaJever/snovio_test.git
-	cd ./test
+	cd ./snovio_test
 ```
 
 * Create test mysql data directory
