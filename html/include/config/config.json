@@ -1,0 +1,15 @@
+{
+	"__": "Данные подключения к базе",
+	"db": {
+		"host": "mysql",
+		"port":	"3306",
+		"user": "root",
+		"pass": "123456",
+		"name": "test"
+	},
+
+	"develop": true,
+
+	"default_lang":	"en",
+	"langs":		["en"]
+}
