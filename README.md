@@ -19,6 +19,6 @@ Need
 	docker-compose up -d
 ```
 
-Test webpage - localhost:8888
+Test webpage - localhost:888
 
-DB admin - localhost:888 (host mysql:3307)
+DB admin - localhost:8888 (host mysql:3307)
