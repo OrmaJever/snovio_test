@@ -7,7 +7,7 @@ Need
 * Clone files
 ```code
 	git clone https://github.com/OrmaJever/snovio_test.git
-	cd ./test
+	cd ./snovio_test
 ```
 
 * Create test mysql data directory
@@ -21,4 +21,4 @@ Need
 
 Test webpage - localhost:888
 
-DB admin - localhost:8888 (host mysql:3307)
+DB admin - localhost:8888 (host=mysql:3307 login=root pass=123456)
