@@ -14,7 +14,7 @@ class Template
 	//--------------------------------------------------------------
 	public static function dir() : string
 	{
-		return ROOT . "/include/template/";
+		return ROOT . "/include/views/";
 	}
 
 	//--------------------------------------------------------------

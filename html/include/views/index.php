@@ -26,7 +26,8 @@
 				return;
 			}
 			$('#loading').show();
-			$('#results').text('Процесс пошёл, после окончания нужно ещё раз нажать на кнопку и данные прогрузятся уже из базы');
+			$('#results').text('Процесс пошёл, ждём окончания');
+			
 			$.post('/index/parse', {url: url, deep: deep, email_max: email_max}, (data) => {
 				$('#loading').hide();
 				$('#results').text('');

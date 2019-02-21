@@ -19,8 +19,8 @@ require ROOT . '/include/function.php';
 // Подгрузка классов
 //--------------------------------------------------------------
 spl_autoload_register(function( string $className ) {
-	if( is_file( ROOT . "/include/classes/$className.php" ) ) {
-		require_once ROOT . "/include/classes/$className.php";
+	if( is_file( ROOT . "/include/helpers/$className.php" ) ) {
+		require_once ROOT . "/include/helpers/$className.php";
 	}
 });
 
@@ -101,12 +101,12 @@ if( !empty( $url['query'] ) )
 //--------------------------------------------------------------
 // Получаем список модулей
 //--------------------------------------------------------------
-$mod = array_slice( scandir( ROOT . '/include/modules/' ), 2 );
+$mod = array_slice( scandir( ROOT . '/include/controllers/' ), 2 );
 $availableModules = [];
 
 foreach( $mod as $v ) {
 
-	$path = ROOT . '/include/modules/';
+	$path = ROOT . '/include/controllers/';
 	$path .= is_file( $path . $v ) ? $v : "$v/$v.php";
 
 	include_once $path;
